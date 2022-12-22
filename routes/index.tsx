@@ -1,5 +1,4 @@
 import { Head } from "$fresh/runtime.ts";
-import Counter from "../islands/Counter.tsx";
 import { Handlers, PageProps } from "$fresh/server.ts"
 import { listPosts } from "../services/posts.ts"
 import { Post } from "../types.d.ts";
@@ -14,7 +13,7 @@ export default function Home(props:PageProps) {
   const {data} = props
   return (
     <main class="p-4">
-      <h1 class="text-4xl font-bold">Mi blog</h1> 
+      <h1 class="text-4xl font-bold">Mi blog</h1>
       {
         data.map((post:Post) => (
           <article class="p-4">
