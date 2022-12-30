@@ -1,29 +1,23 @@
-import { Head } from "$fresh/runtime.ts";
 import { Handlers, PageProps } from "$fresh/server.ts"
-import { listPosts } from "../services/posts.ts"
-import { Post } from "../types.d.ts";
+import Carousel from "../islands/Carousel.tsx"
+import { Fragment } from "preact"
+import { Head } from "$fresh/runtime.ts"
 
-export const handler:Handlers = {
-  async GET(request, contex){
-    return contex.render(await listPosts())
-  }
-}
+const content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
 
-export default function Home(props:PageProps) {
-  const {data} = props
+export default function Index(props: PageProps) {
   return (
-    <main class="p-4">
-      <h1 class="text-4xl font-bold">Mi blog</h1>
-      {
-        data.map((post:Post) => (
-          <article class="p-4">
-            <h2 class="text-2xl font-bold"><a class="hover:text-blue-400" href={`/blog/${post.id}`}>{post.title}</a></h2>
-            <time>{Intl.DateTimeFormat("es").format(post.date)}</time>
-          </article>
-        ))
-      }
-
-    </main>
-    
-  );
+    <Fragment>
+      <Head>
+        <link rel="stylesheet" href="/styles.css" />
+      </Head>
+      <main>
+        <Carousel cardsize={10} content={content} />
+      </main>
+    </Fragment>
+  )
 }
+
+
+
+
