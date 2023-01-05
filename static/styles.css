@@ -15,12 +15,12 @@ body {
 
 .carousel {
   position: absolute;
-  top: 12.5%;
-  left: 12.5%;
-  width: 75%;
-  height: 75%;
+  top: 5%;
+  height: 90%;
+  left: 7.5%;
+  width: 85%;
   perspective: 500px;
-  transform-style: preserve-3d;
+  transform-style: preserve-3d;;
 }
 
 .card-container {
@@ -30,7 +30,7 @@ body {
   transform: 
     rotateY(calc(var(--offset) * 50deg)) 
     scaleY(calc(1 + var(--abs-offset) * -0.4))
-    translateZ(calc(var(--abs-offset) * -30rem))
+    translateZ(calc(var(--abs-offset) * -50rem))
     translateX(calc(var(--direction) * -5rem));
   filter: blur(calc(var(--abs-offset) * 1rem));
   transition: all 0.3s ease-out;
@@ -73,15 +73,15 @@ body {
   user-select: none;
   background: unset;
   border: unset;
-  width: 8%;
+  width: 5%;
 }
 
 .nav.left {
   bottom: 50%;
-  left: 0%;
+  left: 1%;
 }
 
 .nav.right {
   bottom: 50%;
-  right: 0%;
+  right: 1%;
 }
