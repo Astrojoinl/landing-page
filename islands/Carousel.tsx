@@ -4,9 +4,16 @@ const MAX_VISIBILITY = 3
 export default function Carousel({content}){
   const cards_size = content.length
   const [active, setActive] = useState(0)
+  setInterval(() => {
+    if(active >= cards_size - 1) setActive(0)
+    else setActive(active + 1)
+  }, 10000 )
   return (
       <div class="carousel">
-      {active > 0 && <button class='nav left' onClick={() => setActive(i => i - 1)}><img src="/Icons/left arrow.svg"/></button>}
+      <button class='nav left' onClick={() => setActive(i => {
+        if(i <= 0) return cards_size - 1
+        else return i - 1
+      })}><img src="/Icons/left arrow.svg"/></button>
       {content.map((child, i)=> (
         <div class="card-container" style={{
           '--active': i === active ? 1 : 0,
@@ -22,7 +29,10 @@ export default function Carousel({content}){
           </div>
         </div>
       ))}
-      {active < cards_size - 1 && <button class='nav right' onClick={() => setActive(i => i + 1)}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>}
+      <button class='nav right' onClick={() => setActive(i => {
+        if(i >= cards_size - 1) return 0
+        else return i + 1
+      })}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>
       </div>
   )
 }
