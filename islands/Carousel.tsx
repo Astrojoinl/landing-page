@@ -18,7 +18,7 @@ export default function Carousel({content}){
           'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'block',
         }}>
           <div class="card" style={{overflow: "hidden"}}>
-            <img class="card-content" src={`/Carousel/${child}`}/>
+            <video class="card-content" src={`/Carousel/${child}`} autoplay="true" loop="true"/>
           </div>
         </div>
       ))}
