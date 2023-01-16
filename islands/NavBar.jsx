@@ -1,27 +1,16 @@
-import { Handlers, PageProps } from "$fresh/server.ts"
-import Carousel from "../islands/Carousel.tsx"
 import { Fragment } from "preact"
 import { Head } from "$fresh/runtime.ts"
-import imagesListNames from "../services/Carousel.js"
 
-export const handler = {
-  async GET(request, context) {
-    const imagesNames = await imagesListNames()
-    return context.render(imagesNames)
-  }
-}
-
-export default function Index({data}) {
+export default function NavBar() {
   return (
     <Fragment>
       <Head>
-        <link rel="stylesheet" href="/styles.css" />
+        <link rel="stylesheet" href="styles/NavBar.css" />
       </Head>
-
       <nav class="nav">
-          <div class="p-container">
+          <div class="p_container">
               <div class="logo">
-                  <a href="#">Your Logo</a>
+                  <a href="#"><img src="logos/logo.gif"/></a>
               </div>
               <div id="mainListDiv" class="main_list">
                   <ul class="navlinks">
@@ -37,14 +26,7 @@ export default function Index({data}) {
                   <i></i>
               </span>
           </div>
-      </nav>
-
-
-      <Carousel content={data} />
+      </nav>    
     </Fragment>
   )
 }
-
-
-
-
