@@ -1,10 +1,8 @@
 .carousel {
   position: relative;
-  margin-left: 5%;
-  margin-right: 5%;
   min-width: 300px;
-  width: 90%;
-  height: 95vh;
+  width: 100%;
+  height: 100vh;
   z-index: 1;
   perspective: 500px;
   transform-style: preserve-3d;
@@ -25,10 +23,12 @@
   display: flex;
   align-items: center;
   justify-content: center;    
+
   transform:  rotateY(calc(var(--offset) * 40deg))
               scaleY(calc(1 + var(--abs-offset) * -0.5))
-              translateZ(calc(var(--abs-offset) * -1000px))
-              translateX(calc(var(--direction) * -160px));
+              translateZ(calc(var(--abs-offset) * -1000px));
+              /* translateX(calc(var(--direction) * -140px)); */
+
   filter: blur(calc(var(--abs-offset) * 2rem));
   transition: all 0.3s ease-out;
 }
@@ -55,17 +55,17 @@
   user-select: none;
   background: unset;
   border: unset;
-  width: 5%;
+  width: 80px;
 }
 
 .navi.left {
   bottom: 50%;
-  left: -5%;
+  left: 0%;
   outline: none;
 }
 
 .navi.right {
   bottom: 50%;
-  right: -5%;
+  right: 0%;
   outline: none;
 }

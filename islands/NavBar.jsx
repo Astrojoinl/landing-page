@@ -1,13 +1,22 @@
 import { Fragment } from "preact"
 import { Head } from "$fresh/runtime.ts"
+import { useState, useEffect } from "preact/hooks"
 
 export default function NavBar() {
+  const [scrolled, setScrolled] = useState(false)
+  useEffect(() => {
+    // deno-lint-ignore no-window-prefix
+    window.addEventListener('scroll', () => {
+      const position = window.pageYOffset
+      setScrolled(position > 919)
+    })
+  }, [])
   return (
     <Fragment>
       <Head>
         <link rel="stylesheet" href="styles/NavBar.css" />
       </Head>
-      <nav class="nav">
+      <nav class={scrolled ? "nav affix" : "nav no-affix"}>
           <div class="p_container">
               <div class="logo">
                   <a href="#"><img src="logos/logo.gif"/></a>

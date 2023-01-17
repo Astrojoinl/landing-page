@@ -1,11 +1,22 @@
 import { Fragment } from "preact"
 import { Head } from "$fresh/runtime.ts"
-import { useState } from "preact/hooks"
+import { useState, useEffect } from "preact/hooks"
 
 const MAX_VISIBILITY = 3
 export default function Carousel({content}){
   const cards_size = content.length
   const [active, setActive] = useState(0)
+  useEffect(() => {
+
+    
+    const intervalId = setInterval(() => {
+      if(active >= cards_size - 1) setActive(0)
+      else setActive(active + 1)
+    }, 7000 )
+
+
+    return () => clearInterval(intervalId)
+  }, [active])
   return (
     <Fragment>
       <Head>
@@ -27,10 +38,6 @@ export default function Carousel({content}){
           </div>
         ))}
         <button class='navi right' onClick={() => setActive(active >= cards_size - 1 ? 0 : active + 1)}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>
-        {/* {setInterval(() => {
-          if(active >= cards_size - 1) setActive(0)
-          else setActive(active + 1)
-        }, 1000 )} */}
       </div>
     </Fragment>
   )
