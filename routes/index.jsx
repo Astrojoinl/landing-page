@@ -21,23 +21,38 @@ export default function Index({data}) {
       </Head>
       <NavBar />
       <Carousel content={data} />
-      <div style="height: 1000px">
-        {/* just to make scrolling effect possible */}
-        <h2 class="myH2">What is this ?</h2>
-        <p class="myP">This is a responsive fixed navbar animated on scroll</p>
-        <p class="myP">I took inspiration from  ABDO STEIF (<a href="https://codepen.io/abdosteif/pen/bRoyMb?editors=1100">https://codepen.io/abdosteif/pen/bRoyMb?editors=1100</a>)
-        and Dicson <a href="https://codepen.io/dicson/pen/waKPgQ">(https://codepen.io/dicson/pen/waKPgQ)</a></p>
-        <p class="myP">I HOPE YOU FIND THIS USEFULL</p>
-        <p class="myP">Albi</p>
-          <p class="myP">
-          
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
-        </p>
+      <div>
+        <div class="card-grid">
+          <div class="especial-card card1" style={{"margin-top": "50px"}}>
+            <h2 class="myH2">Como funciona:</h2>
+            <p class="myP">
+              <br/>
+              Paso 1: Montaje de la información de colaboradores y de desempeño
+              <br/>
+              Paso 2: Los usuarios crean los objetivos, hacen seguimiento a estos y contestan evaluaciones de competencias
+              <br/>
+              Paso 3: Administradores y jefes generan reportes en línea e inmediatos para la toma de decisiones
+            </p>        
+          </div>  
+          <div class="especial-card" style={{"margin-top": "50px"}}>
+            <form>
+              <label class="myH2">Nombre</label><br/>
+              <label class="myH2">Celular:</label><br/>
+              <label class="myH2">Email</label><br/>
+            </form>
+          </div>
+        </div>
       </div>   
+      <div>
+        <h2 class="myH2">Ventajas:</h2>
+        <p class="myP">
+          -	Información confiable<br/>
+          -	Facilidad de manejo<br/>
+          -	Alto desempeño<br/>
+          -	Disponibilidad 24  horas<br/>
+          -	Seguridad de la información<br/>
+        </p>
+      </div>
     </Fragment>
   )
 }

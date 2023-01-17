@@ -8,7 +8,7 @@ export default function Carousel({content}){
   const [active, setActive] = useState(0)
   useEffect(() => {
 
-    
+
     const intervalId = setInterval(() => {
       if(active >= cards_size - 1) setActive(0)
       else setActive(active + 1)
@@ -34,7 +34,12 @@ export default function Carousel({content}){
             'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
             'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'flex',
           }}>
-            <img class="card-content" src={`/Carousel/${child}`} />
+            <div>
+              <img class="card-content" src={`/Carousel/${child}`} />
+              <div class="myP card-text">
+              ¿Desea crear una cultura de crecimiento de sus colaboradores y logro de resultados para el cumplimiento de los objetivos estratégicos?
+              </div>
+            </div>
           </div>
         ))}
         <button class='navi right' onClick={() => setActive(active >= cards_size - 1 ? 0 : active + 1)}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>
