@@ -21,7 +21,8 @@ export default function Index({data}) {
       </Head>
       <NavBar />
       <Carousel content={data} />
-      <div>
+      <div style={{height:"100vh", width:"100%", position:"relative"}}></div>
+      {/* <div>
         <div class="card-grid">
           <div class="especial-card card1" style={{"margin-top": "50px"}}>
             <h2 class="myH2">Como funciona:</h2>
@@ -52,7 +53,7 @@ export default function Index({data}) {
           -	Disponibilidad 24  horas<br/>
           -	Seguridad de la información<br/>
         </p>
-      </div>
+      </div> */}
     </Fragment>
   )
 }

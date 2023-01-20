@@ -9,10 +9,10 @@ export default function Carousel({content}){
   useEffect(() => {
 
 
-    const intervalId = setInterval(() => {
-      if(active >= cards_size - 1) setActive(0)
-      else setActive(active + 1)
-    }, 7000 )
+    // const intervalId = setInterval(() => {
+    //   if(active >= cards_size - 1) setActive(0)
+    //   else setActive(active + 1)
+    // }, 7000 )
 
 
     return () => clearInterval(intervalId)
@@ -25,21 +25,17 @@ export default function Carousel({content}){
       <div class="carousel">
         <button class='navi left' onClick={() => setActive(active <= 0 ? cards_size - 1 : active - 1)}><img src="/Icons/left arrow.svg"/></button>
         {content.map((child, i)=> (
-          <div class="card" style={{
-            '--active': i === active ? 1 : 0,
+          <div class="card" 
+          style={{
+            '--active': i === active,
             '--offset': (active - i) / 3,
-            '--direction': Math.sign(active - i),
-            '--abs-offset': Math.abs(active - i) / 3,
-            'pointer-events': active === i ? 'auto' : 'none',
-            'opacity': Math.abs(active - i) >= MAX_VISIBILITY ? '0' : '1',
-            'display': Math.abs(active - i) > MAX_VISIBILITY ? 'none' : 'flex',
+            '--abs-offset': Math.abs(active - i) / 3
           }}>
-            <div>
-              <img class="card-content" src={`/Carousel/${child}`} />
-              <div class="myP card-text">
-              ¿Desea crear una cultura de crecimiento de sus colaboradores y logro de resultados para el cumplimiento de los objetivos estratégicos?
-              </div>
-            </div>
+            <div class="card-content"><img class="card-image" src={`/Carousel/${child}`} /></div>
+            <h2 class="myH2 card-text" style={{height:"178px", width:"700px", top:"15%", left:"10%", "background-color":"rgb(255, 113, 25, 0.5)", color:"rgb(0,16,74)"}}>We build intelligent enterprise software!</h2>
+            <p class="myP card-text" style={{height:"340px", width:"700px", top:"35%", left:"10%", "background-color":"rgba(0, 0, 0, 0.6)"}}>
+              We are a technology company that understands complexity of businesses, and with our technical expertise, we
+              help them transform and scale</p>
           </div>
         ))}
         <button class='navi right' onClick={() => setActive(active >= cards_size - 1 ? 0 : active + 1)}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>
