@@ -1,10 +1,9 @@
-import { Handlers, PageProps } from "$fresh/server.ts"
-import Carousel from "../islands/Carousel.jsx"
 import { Fragment } from "preact"
 import { Head } from "$fresh/runtime.ts"
 import imagesListNames from "../services/Carousel.js"
+import Carousel from "../islands/Carousel.jsx"
 import NavBar from "../islands/NavBar.jsx"
-import { useState, useEffect } from "preact/hooks"
+import Digits from "../components/digits.jsx"
 
 export const handler = {
   async GET(request, context) {
@@ -21,7 +20,7 @@ export default function Index({data}) {
       </Head>
       <NavBar />
       <Carousel content={data} />
-      <div style={{height:"100vh", width:"100%", position:"relative"}}></div>
+      <Digits />
       {/* <div>
         <div class="card-grid">
           <div class="especial-card card1" style={{"margin-top": "50px"}}>

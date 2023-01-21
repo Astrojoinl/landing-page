@@ -7,14 +7,10 @@ export default function Carousel({content}){
   const cards_size = content.length
   const [active, setActive] = useState(0)
   useEffect(() => {
-
-
-    // const intervalId = setInterval(() => {
-    //   if(active >= cards_size - 1) setActive(0)
-    //   else setActive(active + 1)
-    // }, 7000 )
-
-
+    const intervalId = setInterval(() => {
+      if(active >= cards_size - 1) setActive(0)
+      else setActive(active + 1)
+    }, 10000 )
     return () => clearInterval(intervalId)
   }, [active])
   return (
