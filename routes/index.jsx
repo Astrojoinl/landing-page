@@ -3,7 +3,7 @@ import { Head } from "$fresh/runtime.ts"
 import imagesListNames from "../services/Carousel.js"
 import Carousel from "../islands/Carousel.jsx"
 import NavBar from "../islands/NavBar.jsx"
-import Digits from "../components/digits.jsx"
+import Digits from "../components/Digits.jsx"
 
 export const handler = {
   async GET(request, context) {
