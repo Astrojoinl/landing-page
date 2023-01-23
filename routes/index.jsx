@@ -3,8 +3,9 @@ import { Head } from "$fresh/runtime.ts"
 import imagesListNames from "../services/Carousel.js"
 import Carousel from "../islands/Carousel.jsx"
 import NavBar from "../islands/NavBar.jsx"
-import Digits from "../components/Digits.jsx"
 import HowItWorks from "../components/HowItWorks.jsx"
+import Facts from "../components/Facts.jsx"
+import Footer from "../components/Footer.jsx"
 
 export const handler = {
   async GET(request, context) {
@@ -21,8 +22,9 @@ export default function Index({data}) {
       </Head>
       <NavBar />
       <Carousel content={data} />
-      <Digits />
+      <Facts />
       <HowItWorks />
+      <Footer />
     </Fragment>
   )
 }

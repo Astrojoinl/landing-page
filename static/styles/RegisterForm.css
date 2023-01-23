@@ -1,5 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
+body, .acrylic::before {
+  background: url("https://wallup.net/wp-content/uploads/2017/11/23/502910-Firewatch-night-forest.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
 .login-page {
   width: 80%;
   padding: 0 50px;
@@ -7,6 +21,7 @@
 }
 
 .form {
+  min-width: 500px;
   position: relative;
   z-index: 1;
   background: #FFFFFF;
@@ -74,23 +89,9 @@
   font-size: 30px;
 }
 
-body, .acrylic::before {
-  background: url("https://wallup.net/wp-content/uploads/2017/11/23/502910-Firewatch-night-forest.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
-}
-
 /*Thanks Chris Shank*/
 .acrylic::before {
-  filter: blur(10px);
+  filter: blur(5px);
   content: "";
   position: absolute;
   left: -10px;

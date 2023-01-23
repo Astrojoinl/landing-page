@@ -13,7 +13,7 @@ export default function RegisterForm() {
           <form class="login-form acrylic">
             <span>Leave us your data</span>
             <input type="text" placeholder="Name"/>
-            <input type="number" placeholder="Cellphone"/>
+            <input type="tel" placeholder="Cellphone"/>
             <input type="text" placeholder="Email"/>
             <button id="SignIn">Contact me!</button>
           </form>

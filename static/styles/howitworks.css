@@ -23,6 +23,7 @@
   top: 10%;
   color: white;
   font-size: 30px;
+  min-width: 500px;
 }
 
 .hiw_subtitle_1{
@@ -30,18 +31,20 @@
   position: relative;
   top: 10%;
   font-size: 20px;
-  padding: 0 100px;
+  padding: 0 5%;
+  min-width: 500px;
 }
 
 .hiw_icon_container{
   margin-top: 0;
   width: 80%;
+  min-width: 500px;
   position: relative;
   top: 10%;  
   display: flex;
   flex-direction: column;
   align-items: flex-start;  
-  padding: 30px 100px;
+  padding: 0 5%;
 }
 
 .hiw_info{

@@ -12,6 +12,7 @@ body {
     position: relative;
     background-color: rgb(255, 255, 255);
     width: 100%;
+    min-width: 1300px;
 }
 
 .myH2 {
