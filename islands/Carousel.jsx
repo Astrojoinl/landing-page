@@ -28,8 +28,8 @@ export default function Carousel({content}){
             '--abs-offset': Math.abs(active - i) / 3
           }}>
             <div class="card-content"><img class="card-image" src={`/Carousel/${child}`} /></div>
-            <h2 class="myH2 card-text" style={{height:"178px", width:"700px", top:"15%", left:"10%", "background-color":"rgb(255, 113, 25, 0.5)", color:"rgb(0,16,74)"}}>We build intelligent enterprise software!</h2>
-            <p class="myP card-text" style={{height:"340px", width:"700px", top:"35%", left:"10%", "background-color":"rgba(0, 0, 0, 0.6)"}}>
+            <h2 class="myH2 card-text" style={{width:"500px", top:"15%", left:"10%", "background-color":"rgb(0,16,74)", color:"white"}}>We build intelligent enterprise software!</h2>
+            <p class="myP card-text" style={{height:"340px", width:"700px", top:"40%", left:"10%"}}>
               We are a technology company that understands complexity of businesses, and with our technical expertise, we
               help them transform and scale</p>
           </div>

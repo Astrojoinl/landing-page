@@ -8,8 +8,8 @@ export default function Digits() {
         <link rel="stylesheet" href="styles/digits.css" />
       </Head>
       <div class="digits">
-        <h2 class="digits_title myH2">Talking about numbers</h2>
-        <h2 class="digits_subtitle myH2">Our achivements so far</h2>
+        <h2 class="digits_title myH2">Our achivements so far</h2>
+        <h2 class="digits_subtitle myH2">Talking about numbers</h2>
         <div class="digits_cards"></div>
 
       </div>

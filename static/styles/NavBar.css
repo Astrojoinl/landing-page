@@ -15,7 +15,7 @@
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    padding-left: 20rem;
 }
 
 .nav div.logo a {
@@ -35,6 +35,7 @@
 .nav div.main_list {
     height: 65px;
     float: right;
+    padding-right: 10rem;
 }
 
 .nav div.main_list ul {
