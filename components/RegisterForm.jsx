@@ -10,19 +10,12 @@ export default function RegisterForm() {
 
       <div class="login-page">
         <div class="form">
-          <form class="register-form acrylic">
-            <span>Sign Up</span>
-            <input type="text" placeholder="Email"/>
-            <input type="password" placeholder="Password"/>
-            <button id="SignUp">Go</button>
-            <p class="message"><a href="#">I have Account</a></p>
-          </form>
           <form class="login-form acrylic">
-            <span>Login to your account</span>
+            <span>Leave us your data</span>
+            <input type="text" placeholder="Name"/>
+            <input type="number" placeholder="Cellphone"/>
             <input type="text" placeholder="Email"/>
-            <input type="password" placeholder="Password"/>
-            <button id="SignIn">Login</button>
-            <p class="message"><a href="#"/>Create Account</p>
+            <button id="SignIn">Contact me!</button>
           </form>
         </div>
       </div>
