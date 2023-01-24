@@ -49,28 +49,23 @@
 
 .navi {
   color: white;
-  font-size: 5rem;
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top: 50%;
   z-index: 2;
   cursor: pointer;
   user-select: none;
   background: unset;
   border: unset;
   width: 80px;
+  height: 80px;
+  bottom: 0;
 }
 
 .navi.left {
-  bottom: 50%;
   left: 0%;
   outline: none;
 }
 
 .navi.right {
-  bottom: 50%;
   right: 0%;
   outline: none;
 }

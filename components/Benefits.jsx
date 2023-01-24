@@ -9,7 +9,7 @@ export default function Benefits() {
       </Head>
       <div class="benefits">
         <div class="b_part" style={{float: "left"}}>
-          <img style={{height: "100%", "margin":"auto"}} src="/Benefits/1.svg" />
+          <img style={{height: "100%", "float":"right"}} src="/Benefits/1.svg" />
         </div>
         <div class="b_part" style={{"padding-top":"10%"}}>
           <h1 class="myH2 b_title" style={{"text-align":"left"}}>Built for growth</h1>
@@ -24,7 +24,7 @@ export default function Benefits() {
           urna, mattis sed dictum vitae, efficitur eu diam.</p>          
         </div>
         <div class="b_part">
-        <img style={{height: "100%", float: "left", "padding-left":"10%"}} src="/Benefits/2.svg" />
+          <img style={{height: "100%", float: "left"}} src="/Benefits/2.svg" />
         </div>
       </div>
     </Fragment>

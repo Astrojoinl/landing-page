@@ -26,7 +26,7 @@ export default function NavBar() {
                       <li><a href="#">About</a></li>
                       <li><a href="#">Portfolio</a></li>
                       <li><a href="#">Services</a></li>
-                      <li><a href="#" id="contact" style={{"background-color":"white", padding:"10px", "border-radius":"15px"}}>Contact</a></li>
+                      <li><a href="#howitworks" id="contact" style={{"background-color":"white", padding:"10px", "border-radius":"15px"}}>Contact</a></li>
                   </ul>
               </div>
               <span class="navTrigger">
