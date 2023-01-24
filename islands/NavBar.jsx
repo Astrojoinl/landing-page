@@ -17,24 +17,22 @@ export default function NavBar() {
         <link rel="stylesheet" href="styles/NavBar.css" />
       </Head>
       <nav class={scrolled ? "nav affix" : "nav no-affix"}>
-          <div class="p_container">
-              <div class="logo">
-                  <a href="#"><img src="logos/logo.gif"/></a>
-              </div>
-              <div id="mainListDiv" class="main_list">
-                  <ul class="navlinks">
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Portfolio</a></li>
-                      <li><a href="#">Services</a></li>
-                      <li><a href="#howitworks" id="contact" style={{"background-color":"white", padding:"10px", "border-radius":"15px"}}>Contact</a></li>
-                  </ul>
-              </div>
-              <span class="navTrigger">
-                  <i></i>
-                  <i></i>
-                  <i></i>
-              </span>
-          </div>
+        <div class="logo">
+          <a href="#"><img src="logos/logo.gif"/></a>
+        </div>
+        <div id="mainListDiv" class="main_list">
+          <ul class="navlinks">
+            <li><a href="#"><b>About</b></a></li>
+            <li><a href="#"><b>Portfolio</b></a></li>
+            <li><a href="#"><b>Services</b></a></li>
+            <li><a href="#howitworks" id="contact"><b>Contact</b></a></li>
+          </ul>
+        </div>
+        <span class="navTrigger">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
       </nav>    
     </Fragment>
   )

@@ -16,14 +16,13 @@
     width: auto;
     height: auto;
     padding: 0 5%;
-
-    background-color: white;
 }
 
 .nav div.logo a {
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 2.5rem;
+
 }
 
 .nav div.logo a:hover {
@@ -37,7 +36,6 @@
 .nav div.main_list {
     height: 65px;
     float: right;
-    padding-right: 10rem;
 }
 
 .nav div.main_list ul {
@@ -53,18 +51,26 @@
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding: 0 3rem;
 }
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     line-height: 65px;
     font-size: 2.4rem;
 }
 
+.navlinks{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10rem;
+}
+
 #contact{
-  color: black;
+  color: rgb(255, 255, 255);
+  background-color: black;
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .nav div.main_list ul li a:hover, #contact:hover {
@@ -73,5 +79,5 @@
 
 .affix {
   padding: 0;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
