@@ -3,8 +3,10 @@ import { Head } from "$fresh/runtime.ts"
 import imagesListNames from "../services/Carousel.js"
 import Carousel from "../islands/Carousel.jsx"
 import NavBar from "../islands/NavBar.jsx"
-import HowItWorks from "../components/HowItWorks.jsx"
 import Facts from "../components/Facts.jsx"
+import Benefits from "../components/Benefits.jsx"
+import HowItWorks from "../components/HowItWorks.jsx"
+
 import Footer from "../components/Footer.jsx"
 
 export const handler = {
@@ -23,6 +25,7 @@ export default function Index({data}) {
       <NavBar />
       <Carousel content={data} />
       <Facts />
+      <Benefits />
       <HowItWorks />
       <Footer />
     </Fragment>

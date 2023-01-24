@@ -5,7 +5,7 @@ export default function Facts() {
   return (
     <Fragment>
       <Head>
-        <link rel="stylesheet" href="styles/digits.css" />
+        <link rel="stylesheet" href="styles/facts.css" />
       </Head>
       <div class="digits">
         <h2 class="digits_title myH2">Our achivements so far</h2>
