@@ -1,6 +1,5 @@
 import { Fragment } from "preact"
 import { Head } from "$fresh/runtime.ts"
-import RegisterForm from "./RegisterForm.jsx"
 
 export default function HowItWorks() {
   return (
@@ -9,28 +8,30 @@ export default function HowItWorks() {
         <link rel="stylesheet" href="styles/howitworks.css" />
       </Head>
       <div class="hiw">
-        <h1 class="myH2 hiw_title"><b>How React works for you?</b></h1>
-        <p class="myP hiw_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum, 
-          massa ac dignissim mattis, risus sapien vestibulum ipsum, interdum ultricies orci libero eget erat. Sed lacus 
-          urna, mattis sed dictum vitae, efficitur eu diam.</p>
-          <div class="hiw_icon_container">
-            <div class="hiw_info">
-            <img class="hiw_icon" src="/Icons/hiw/1.svg" />
-              <p class="myP hiw_desc">Login or signup in React to get started</p>
-            </div>
-            <img class="hiw_icon" src="/Icons/hiw/arrow.svg" />
-            <div class="hiw_info">
-            <img class="hiw_icon" src="/Icons/hiw/2.svg" />
-              <p class="myP hiw_desc">Using our super powerfull builder, build your apps</p>
-            </div>
-            <img class="hiw_icon" src="/Icons/hiw/arrow.svg" />
-            <div class="hiw_info">
-              <img class="hiw_icon" src="/Icons/hiw/3.svg" />
-              <p class="myP hiw_desc">When you are done, hit the publish button to show the world!</p>
-            </div>
+        <h1 class="myH2 hiw_title"><b>¿Cómo E-Cert funciona para evaluar el desempeño?</b></h1>
+        <p class="myP hiw_subtitle">La evaluación del desempeño es la herramienta que permite solucionar una de las tareas más importantes del 
+        departamento de Recursos Humanos: medir el talento y el rendimiento de la plantilla. Elegir el software de evaluación del desempeño más 
+        eficaz y acorde a las necesidades de nuestra empresa nos permitirá detectar errores y necesidades en la gestión del capital humano.</p>
+        <div class="hiw_icon_container">
+          <div class="hiw_info">
+            <div class="hiw_icon"><img src="/Icons/hiw/1.svg" /></div>
+            <h2 class="myH2 hiw_title">Paso 1:</h2>
+            <p class="myP hiw_desc">Montaje de la información de colaboradores y de desempeño</p>
           </div>
+          <div class="hiw_arrow"><img src="/Icons/hiw/arrow.svg" /></div>
+          <div class="hiw_info">
+            <div class="hiw_icon"><img src="/Icons/hiw/2.svg" /></div>
+            <h2 class="myH2 hiw_title">Paso 2:</h2>
+            <p class="myP hiw_desc">Los usuarios crean los objetivos, hacen seguimiento a estos y contestan evaluaciones de competencias</p>
+          </div>
+          <div class="hiw_arrow"><img src="/Icons/hiw/arrow.svg" /></div>
+          <div class="hiw_info">
+            <div class="hiw_icon"><img src="/Icons/hiw/3.svg" /></div>
+            <h2 class="myH2 hiw_title">Paso 3:</h2>
+            <p class="myP hiw_desc">Administradores y jefes generan reportes en línea e inmediatos para la toma de decisiones</p>
+          </div>
+        </div>
       </div>
-      <RegisterForm />
     </Fragment>
   )
 }

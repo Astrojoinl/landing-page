@@ -1,4 +1,4 @@
-.digits{
+.facts{
   padding-top: 65px;
   height: 100vh; 
   width: 100%;
@@ -9,7 +9,7 @@
   flex-direction: column; 
 }
 
-.digits_title{
+.facts_title{
   font-size: 80px;
   border-radius: 10px;
   padding: 0% 2%;
@@ -18,7 +18,7 @@
   color: rgb(0,16,74);
 }
 
-.digits_subtitle{
+.facts_subtitle{
   border-radius: 10px;
   font-size: 40px;
   font-family: "Quicksand", serif;
@@ -26,7 +26,7 @@
   color: white;
 }
 
-.digits_cards_container{
+.facts_cards_container{
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -34,7 +34,7 @@
   height: 100%;
 }
 
-.digits_card{
+.facts_card{
   margin: auto;
   height: 60%;
   width: 25%;
@@ -45,12 +45,13 @@
   align-items: center;
 }
 
-.digits_icon{
+.facts_icon{
   padding-top: 10%;
   width: 20%;
 }
 
-.digits_description{
+.facts_description{
+  font-size: 300%;
   text-align: center;
   padding: 0 5%;
 }

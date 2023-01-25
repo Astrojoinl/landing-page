@@ -6,6 +6,7 @@ import NavBar from "../islands/NavBar.jsx"
 import Facts from "../components/Facts.jsx"
 import Benefits from "../components/Benefits.jsx"
 import HowItWorks from "../components/HowItWorks.jsx"
+import RegisterForm from "../components/RegisterForm.jsx"
 
 import Footer from "../components/Footer.jsx"
 
@@ -27,6 +28,7 @@ export default function Index({data}) {
       <Facts />
       <Benefits />
       <HowItWorks />
+      <RegisterForm />
       <Footer />
     </Fragment>
   )

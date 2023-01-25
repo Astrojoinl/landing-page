@@ -1,31 +1,45 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-body, .acrylic::before {
-  background: url(/Bk/bk1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  font-family: "Roboto", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+.login-page {
+  height: 70vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.login-page {
-  width: 80%;
-  padding: 0 50px;
-  margin: auto;
+.rf_part{
+  height: 90%;
+  width: 45%;
+  display: inline-block;
+  margin: auto 2.5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.rf_title{
+  text-align: center;
+  color: rgb(0,16,74);
+  font-size: 40px;
+  padding: 4rem 4rem;
+}
+
+.rf_text{
+  text-align: justify;
+  font-size: 30px;
+  padding: 0 4rem;
+}
+/* Acrylic form */
 
 .form {
-  min-width: 500px;
+  height: 100%;
+  width: 100%;
   position: relative;
   z-index: 1;
   background: #FFFFFF;
-  margin: 0 auto 100px;
   padding: 50px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -89,7 +103,21 @@ body, .acrylic::before {
   font-size: 30px;
 }
 
-/*Thanks Chris Shank*/
+/* Acrylic system */
+body, .acrylic::before {
+  background: url(/Bk/bk1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}
+
 .acrylic::before {
   filter: blur(5px);
   content: "";

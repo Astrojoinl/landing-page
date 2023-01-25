@@ -28,10 +28,11 @@ export default function Carousel({content}){
             '--abs-offset': Math.abs(active - i) / 3
           }}>
             <div class="card-content"><img class="card-image" src={`/Carousel/${child}`} /></div>
-            <h2 class="myH2 card-text" style={{width:"500px", top:"15%", left:"10%", "background-color":"rgb(0,16,74)", color:"white"}}>We build intelligent enterprise software!</h2>
-            <p class="myP card-text" style={{height:"340px", width:"700px", top:"40%", left:"10%"}}>
-              We are a technology company that understands complexity of businesses, and with our technical expertise, we
-              help them transform and scale</p>
+            <h2 class="myH2 card-text card_title">Software de evaluación de desempeño para empresas.</h2>
+            <p class="myP card-text card_desc">
+              {i === 0 ? "¿Desea crear una cultura de crecimiento de sus colaboradores y logro de resultados para el cumplimiento de los objetivos estratégicos?" : 
+              "¿Necesita evaluar las competencias de sus colaboradores e implementar una cultura de establecimiento, seguimiento y logro de objetivos?"}
+            </p>
           </div>
         ))}
         <button class='navi right' onClick={() => setActive(active >= cards_size - 1 ? 0 : active + 1)}><img src="/Icons/left arrow.svg" style={{transform: "scaleX(-1)"}}/></button>
