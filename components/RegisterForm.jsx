@@ -15,15 +15,15 @@ export default function RegisterForm() {
           <p class="myP rf_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum, 
           massa ac dignissim mattis, risus sapien vestibulum ipsum, interdum ultricies orci libero eget erat. Sed lacus 
           urna, mattis sed dictum vitae, efficitur eu diam.</p>
-          
+
         </div>
         <div class="rf_part">
           <div class="form">
             <form class="login-form acrylic">
               <span>¿Interesado? Déjanos tus datos</span>
-              <input type="text" placeholder="Name"/>
-              <input type="tel" placeholder="Cellphone"/>
-              <input type="text" placeholder="Email"/>
+              <input type="text" placeholder="Nombre"/>
+              <input type="tel" placeholder="Teléfono"/>
+              <input type="text" placeholder="Correo electrónico"/>
               <button id="SignIn">Contáctame</button>
             </form>
           </div>

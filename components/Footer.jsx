@@ -44,7 +44,9 @@ export default function Footer() {
         </div>
       </div>
       <div class="copyrights">
-        <img class="cr_logo" src="logos/logo.gif"/>
+        <div class="cr_logo">
+          <img style={{height:"100%", margin:"auto"}} src="logos/logo.gif"/>
+        </div>
         <p class="myP cr_text">© 2023 React. All rights reserved.</p>
         <div class="cr_img_container">
           <img class="cr_social" src="/Icons/copyrights/1.svg"/>
