@@ -19,13 +19,13 @@ export default function Facts() {
           </div>
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/2.svg"/>
-            <h1 class="myH2">6+</h1>
-            <p class="myP facts_description">Years of experience in technology business</p>
+            <h1 class="myH2">20+</h1>
+            <p class="myP facts_description">Años de experiencia en negocios tecnológicos</p>
           </div>
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/1.svg"/>  
-            <h1 class="myH2">1000+</h1>
-            <p class="myP facts_description">Business users trust software we buillt</p>
+            <h1 class="myH2">400+</h1>
+            <p class="myP facts_description">Los usuarios que confían en nuestro software</p>
           </div>
         </div>
 
