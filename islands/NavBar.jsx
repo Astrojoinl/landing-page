@@ -22,10 +22,10 @@ export default function NavBar() {
         </div>
         <div id="mainListDiv" class="main_list">
           <ul class="navlinks">
-            <li><a href="#"><b>About</b></a></li>
-            <li><a href="#"><b>Portfolio</b></a></li>
-            <li><a href="#"><b>Services</b></a></li>
-            <li><a href="#howitworks" id="contact"><b>Contact</b></a></li>
+            <li><a href="#facts"><b>Números</b></a></li>
+            <li><a href="#benefits"><b>Servicios</b></a></li>
+            <li><a href="#hiw"><b>Pasos</b></a></li>
+            <li><a href="#registration" id="contact"><b>Contacto</b></a></li>
           </ul>
         </div>
         <span class="navTrigger">

@@ -7,7 +7,7 @@ export default function Facts() {
       <Head>
         <link rel="stylesheet" href="styles/facts.css" />
       </Head>
-      <div class="facts">
+      <div class="facts" id="facts">
         <h2 class="facts_title myH2">Nuestros logros hasta el momento</h2>
         <h2 class="facts_subtitle myH2">Hablando de números</h2>
 

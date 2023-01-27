@@ -7,7 +7,7 @@ export default function HowItWorks() {
       <Head>
         <link rel="stylesheet" href="styles/howitworks.css" />
       </Head>
-      <div class="hiw">
+      <div class="hiw" id="hiw">
         <h1 class="myH2 hiw_title"><b>¿Cómo E-Cert funciona para evaluar el desempeño?</b></h1>
         <p class="myP hiw_subtitle">La evaluación del desempeño es la herramienta que permite solucionar una de las tareas más importantes del 
         departamento de Recursos Humanos: medir el talento y el rendimiento de la plantilla. Elegir el software de evaluación del desempeño más 

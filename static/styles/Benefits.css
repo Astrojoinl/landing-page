@@ -6,7 +6,7 @@
 }
 
 .b_part{
-  height: 40vh;
+  height: 30vh;
   width: 50%;
   display: inline-block;
   position: relative;
@@ -21,41 +21,3 @@
 .b_subtitle{
   font-size: 20px;
 }
-
-/* .img_acrylic {
-  position: relative;
-  z-index: 1;
-  background: #FFFFFF;
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-
-  border-radius: 40%;
-}
-
-.img_acrylic::before {
-  background: url(/Bk/bk1.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  filter: blur(5px);
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;  
-
-  border-radius: 40%;
-}
-
-.img_acrylic::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  opacity: 0.3;
-  border: 1px solid #fff;
-  background: #fff;
-  background-image: url(/Bk/bk1.jpg);
-} */
