@@ -16,12 +16,14 @@ export default function Footer() {
               <li class="footer_element myP">Evaluación de competencias</li>
               <li class="footer_element myP">Plan de desarrollo</li>
               <li class="footer_element myP">Plataforma de capacitaciones</li>
+              <li class="footer_element myP">Dotaciones</li>
             </ul>
             <ul class="footer_list_container">
               <li class="footer_element myP">Asignación de tareas</li>
-              <li class="footer_element myP">Evaluación de clima empresarial</li>
+              <li class="footer_element myP">Evaluación de clima organizacional</li>
               <li class="footer_element myP">Hojas de vida</li>
-              <li class="footer_element myP">Bienestar</li>
+              <li class="footer_element myP">Bienestar empresarial</li>
+              <li class="footer_element myP">Faltas</li>
             </ul>
           </div>
         </div>
