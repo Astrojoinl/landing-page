@@ -14,7 +14,7 @@ export default function Facts() {
         <div class="facts_cards_container">
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/3.svg"/>
-            <h1 class="myH2">2+</h1>
+            <h1 class="myH2">3+</h1>
             <p class="myP facts_description">Idiomas en los que la plataforma está disponible</p>
           </div>
           <div class="facts_card">
@@ -25,7 +25,7 @@ export default function Facts() {
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/1.svg"/>  
             <h1 class="myH2">400+</h1>
-            <p class="myP facts_description">Los usuarios que confían en nuestro software</p>
+            <p class="myP facts_description">Los clientes que confían en nuestro software</p>
           </div>
         </div>
 
