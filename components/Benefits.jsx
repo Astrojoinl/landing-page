@@ -30,7 +30,7 @@ export default function Benefits() {
           </p>              
         </div>
         <div class="b_part">
-          <img style={{height: "100%", float: "left", "padding-left":"10%", "padding-top":"5%"}} src="/Benefits/2.svg" />
+          <img style={{height: "100%", float: "left", "padding-left":"10%"}} src="/Benefits/2.svg" />
         </div>          
 
         <div class="b_part" style={{float: "left"}}>
