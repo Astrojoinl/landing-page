@@ -9,7 +9,7 @@ export default function RegisterForm() {
       </Head>
       <div class="registration" id="registration">
         <div class="rf_part" style={{"background-color":"white"}}>
-          <h1 class="myH2 rf_title">Una evaluación empresarial excelente no debería ser difícil</h1>
+          <h1 class="myH2 rf_title">eCert es una solución excelente</h1>
           <div class="rf_content">
             <h2 class="myH2 rf_content_list">Información confiable</h2>
             <img src="/Icons/Register/1.svg" style={{height:"100%"}}/>
