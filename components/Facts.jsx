@@ -8,24 +8,23 @@ export default function Facts() {
         <link rel="stylesheet" href="styles/facts.css" />
       </Head>
       <div class="facts" id="facts">
-        <h2 class="facts_title myH2">Nuestros logros hasta el momento</h2>
-        <h2 class="facts_subtitle myH2">Hablando de números</h2>
+        <h2 class="facts_title myH2">Nuestros logros</h2>
 
         <div class="facts_cards_container">
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/3.svg"/>
             <h1 class="myH2">3+</h1>
-            <p class="myP facts_description">Idiomas en los que la plataforma está disponible</p>
+            <p class="myP facts_description">Idiomas</p>
           </div>
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/2.svg"/>
             <h1 class="myH2">20+</h1>
-            <p class="myP facts_description">Años de experiencia en negocios tecnológicos</p>
+            <p class="myP facts_description">Años de experiencia</p>
           </div>
           <div class="facts_card">
             <img class="facts_icon" src="/Icons/facts/1.svg"/>  
             <h1 class="myH2">400+</h1>
-            <p class="myP facts_description">Los clientes que confían en nuestro software</p>
+            <p class="myP facts_description">Clientes que confían en nuestro software</p>
           </div>
         </div>
 
