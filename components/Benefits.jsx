@@ -11,7 +11,7 @@ export default function Benefits() {
 
       <div class="benefits" id="benefits">
         <div class="b_part">
-          <div class="b_mid"><img src="/Benefits/1.svg" /></div>
+          <div class="b_mid"><img style={{width:"50%", float:"right"}} src="/Benefits/1.svg" /></div>
           <div class="b_mid">
             <h1 class="myH2 b_title">Alineación con los objetivos estratégicos de la compañía</h1>
             <p class="myP b_subtitle">
@@ -30,10 +30,10 @@ export default function Benefits() {
               urna, mattis sed dictum vitae, efficitur eu diam.
             </p>          
           </div>
-          <div class="b_mid"><img src="/Benefits/2.svg" /></div>
+          <div class="b_mid"><img style={{width:"50%"}} src="/Benefits/2.svg" /></div>
         </div>          
         <div class="b_part">
-          <div class="b_mid"><img src="/Benefits/3.svg" /></div>
+          <div class="b_mid"><img style={{width:"50%", float:"right"}} src="/Benefits/3.svg" /></div>
           <div class="b_mid">
             <h1 class="myH2 b_title">Facilidad de manejo</h1>
             <p class="myP b_subtitle">

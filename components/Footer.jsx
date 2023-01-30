@@ -39,9 +39,7 @@ export default function Footer() {
         </div>
       </div>
       <div class="copyrights">
-        <div class="cr_logo">
-          <img style={{height:"100%", margin:"auto"}} src="logos/logo.gif"/>
-        </div>
+        <div class="cr_logo"><img style={{height:"100%"}} src="logos/logo.gif"/></div>
         <p class="myP cr_text">© 2023 E-Learning. All rights reserved.</p>
         <div class="cr_img_container">
           <img class="cr_social" src="/Icons/copyrights/1.svg"/>

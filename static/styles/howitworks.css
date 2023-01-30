@@ -9,7 +9,7 @@
 
 .hiw_title{
   text-align: center;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .hiw_subtitle{
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 1200px){
   .hiw_title{
-    font-size: 40px;
+    font-size: 35px;
   }
 
   .hiw_subtitle{
@@ -65,7 +65,7 @@
 
 @media screen and (max-width: 660px){
   .hiw_title{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .hiw_subtitle{
