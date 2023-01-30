@@ -23,6 +23,10 @@
   width: 50%;
 }
 
+.b_mid img{
+  width: 50%;
+}
+
 .b_title{
   font-size: 40px;
 }
@@ -49,4 +53,8 @@
   .b_subtitle{
     font-size: 10px;
   }
+
+  .b_mid img{
+    width: 100%;
+  }  
 }
