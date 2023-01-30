@@ -1,39 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
-.registration {
-  height: 100vh;
-  width: 100%;
-  padding-top: 65px;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.rf_part{
-  height: 90%;
-  width: 45%;
-  display: inline-block;
-  margin: auto 2.5%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.rf_title{
-  text-align: center;
-  color: rgb(0,16,74);
-  font-size: 40px;
-  padding: 4rem 4rem;
-}
-
-.rf_text{
-  text-align: justify;
-  font-size: 30px;
-  padding: 0 4rem;
-}
 /* Acrylic form */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
 .form {
   height: 100%;
@@ -144,16 +110,67 @@ body, .acrylic::before {
   background-image: url(/Bk/bk1.jpg);
 }
 
-.rf_content{
+/* Registration form */
+.registration {
+  height: 100vh;
   width: 100%;
+  padding-top: 65px;
   display: flex;
   flex-direction: row;
-  column-gap: 5%;
-  height: 100px;
   align-items: center;
   justify-content: center;
 }
 
+.rf_part{
+  height: 90%;
+  width: 45%;
+  margin: 5% 2.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rf_title{
+  text-align: center;
+  color: rgb(0,16,74);
+  font-size: 40px;
+}
+
+.rf_content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 3%;
+  width: 100%;
+}
+
 .rf_content_list{
+  width: 30%;
   font-size: 25px;
+  text-align: center;
+}
+
+.rf_content_img{
+  width: 15%;
+}
+
+@media screen and (max-width: 1200px){
+  .rf_title{
+    font-size: 30px;
+  }
+
+  .rf_content_list{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .rf_title{
+    font-size: 20px;
+  }
+
+  .rf_content_list{
+    font-size: 10px;
+  }
 }

@@ -49,6 +49,10 @@
 }
 
 @media screen and (max-width: 1200px){
+  .facts{
+    height: 70vh;
+  }
+
   .facts_title{
     font-size: 60px;
   }
@@ -59,6 +63,10 @@
 }
 
 @media screen and (max-width: 660px){
+  .facts{
+    height: 50vh;
+  }
+
   .facts_title{
     font-size: 40px;
   }

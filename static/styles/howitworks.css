@@ -9,12 +9,12 @@
 
 .hiw_title{
   text-align: center;
-  font-size: 500%;
+  font-size: 50px;
 }
 
 .hiw_subtitle{
   padding: 0 10%;
-  font-size: 200%;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -43,12 +43,36 @@
   width: 40%;
 }
 
-.hiw_title{
-  font-size: 200%;
-}
-
 .hiw_desc{
   color: white;
-  font-size: 150%;
+  font-size: 20px;
   text-align: justify;
+}
+
+@media screen and (max-width: 1200px){
+  .hiw_title{
+    font-size: 40px;
+  }
+
+  .hiw_subtitle{
+    font-size: 15px;
+  }
+
+  .hiw_desc{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .hiw_title{
+    font-size: 30px;
+  }
+
+  .hiw_subtitle{
+    font-size: 10px;
+  }
+
+  .hiw_desc{
+    font-size: 10px;
+  }
 }

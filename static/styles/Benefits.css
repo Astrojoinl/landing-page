@@ -1,23 +1,52 @@
 .benefits{
   padding-top: 65px;
   width: 100%;
-  position: relative;
   background-color: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .b_part{
-  height: 30vh;
+  padding: 1% 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  width: 80%;
+  column-gap: 10%;
+
+}
+
+.b_mid{
   width: 50%;
-  display: inline-block;
-  position: relative;
-  padding: 0%;
 }
 
 .b_title{
-  color: rgb(0,16,74);
-  font-size: 35px;
+  font-size: 40px;
 }
 
 .b_subtitle{
   font-size: 20px;
+}
+
+@media screen and (max-width: 1200px){
+  .b_title{
+    font-size: 30px;
+  }
+
+  .b_subtitle{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .b_title{
+    font-size: 20px;
+  }
+
+  .b_subtitle{
+    font-size: 10px;
+  }
 }

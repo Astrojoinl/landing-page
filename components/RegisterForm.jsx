@@ -10,25 +10,27 @@ export default function RegisterForm() {
       <div class="registration" id="registration">
         <div class="rf_part" style={{"background-color":"white"}}>
           <h1 class="myH2 rf_title">eCert es una solución excelente</h1>
+
           <div class="rf_content">
             <h2 class="myH2 rf_content_list">Información confiable</h2>
-            <img src="/Icons/Register/1.svg" style={{height:"100%"}}/>
+            <img src="/Icons/Register/1.svg" class="rf_content_img"/>
           </div>
+
           <div class="rf_content">
-            <img src="/Icons/Register/2.svg" style={{height:"100%"}}/> 
+            <img src="/Icons/Register/2.svg" class="rf_content_img"/> 
             <h2 class="myH2 rf_content_list">Facilidad de manejo</h2>
           </div>
           <div class="rf_content">
             <h2 class="myH2 rf_content_list">Alto desempeño</h2>
-            <img src="/Icons/Register/3.svg" style={{height:"100%"}}/>
+            <img src="/Icons/Register/3.svg" class="rf_content_img"/>
           </div>
           <div class="rf_content">
-            <img src="/Icons/Register/4.svg" style={{height:"100%"}}/>
+            <img src="/Icons/Register/4.svg" class="rf_content_img"/>
             <h2 class="myH2 rf_content_list">Disponibilidad 24 horas</h2>
           </div>
           <div class="rf_content">
             <h2 class="myH2 rf_content_list">Seguridad de la información</h2>
-            <img src="/Icons/Register/5.svg" style={{height:"100%"}}/>
+            <img src="/Icons/Register/5.svg" class="rf_content_img"/>
           </div>
         </div>
         <div class="rf_part">
