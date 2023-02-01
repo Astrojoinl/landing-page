@@ -62,20 +62,13 @@
 
 .navTrigger {
   display: none;
-  z-index: 3;
 }
-
-
-
-
-
-
 
 /* Movile display */
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:782px) {
   .navTrigger {
-      display: block;
+      display: flex;
   }
   .nav div.main_list {
       margin-right: 0;
@@ -97,17 +90,19 @@
 /* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
+  z-index: 3;
   cursor: pointer;
-  width: 30px;
-  height: 25px;
-  margin: auto;
   position: absolute;
-  right: 30px;
-  top: 0;
-  bottom: 0;
-
-  /* background-color: white; */
-  /* margin: 5px; */
+  width: 50px;
+  height: 50px;  
+  right: 0;
+  top: 7.5px;
+  margin-right: 20px;
+  padding: 5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .navTrigger i {
