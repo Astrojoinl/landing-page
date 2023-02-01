@@ -16,11 +16,20 @@ export default function NavBar() {
       <Head>
         <link rel="stylesheet" href="styles/NavBar.css" />
       </Head>
+
+
       <nav class={scrolled ? "nav affix" : "nav no-affix"}>
         <div class="logo">
           <a href="#"><img src="logos/logo.gif"/></a>
         </div>
-        <div id="mainListDiv" class="main_list">
+
+        <span class="navTrigger active">
+          <i></i>
+          <i></i>
+          <i></i>
+        </span>
+
+        <div id="mainListDiv" class="main_list show_list">
           <ul class="navlinks">
             <li><a href="#facts"><b>Cifras</b></a></li>
             <li><a href="#benefits"><b>Servicios</b></a></li>
@@ -28,11 +37,7 @@ export default function NavBar() {
             <li><a href="#registration" id="contact"><b>Contacto</b></a></li>
           </ul>
         </div>
-        <span class="navTrigger">
-          <i></i>
-          <i></i>
-          <i></i>
-        </span>
+
       </nav>    
     </Fragment>
   )
