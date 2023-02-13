@@ -15,9 +15,11 @@ export default function Benefits() {
           <div class="b_mid">
             <h1 class="myH2 b_title">Alineación con los objetivos estratégicos de la compañía</h1>
             <p class="myP b_subtitle">
-              Los objetivos individuales de los empleados se alinean con los objetivos de la compañía, así, 
-              esto nos ayudará a tener una claridad total de cómo cada colaborador tiene un rol indispensable 
-              en poder alcanzarlos. Y le dará a cada colaborador una idea precisa de como su trabajo impacta en la organización.  
+              Los objetivos individuales de cada colaborador deben estar alineadas a logro de los objetivos 
+              estratégicos de la organización y por lo tanto cada colaborador a su vez debe tener las 
+              competencias adecuadas para lograrlos.  Un modelo de desempeño que genere crecimiento 
+              alineado a la planeación estratégica genera a corto plazo colaboradores de mayor desempeño 
+              con mejores resultados organizacionales.
             </p>
           </div>
         </div>
@@ -25,9 +27,8 @@ export default function Benefits() {
           <div class="b_mid">
             <h1 class="myH2 b_title" style={{"text-align":"right"}}>Evalúa en el momento que quieras</h1>
             <p class="myP b_subtitle" style={{"text-align":"right"}}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus condimentum, 
-              massa ac dignissim mattis, risus sapien vestibulum ipsum, interdum ultricies orci libero eget erat. Sed lacus 
-              urna, mattis sed dictum vitae, efficitur eu diam.
+              eCert es una plataforma de rápida implementación, fácil administración, alta seguridad 
+              y alto desempeño
             </p>          
           </div>
           <div class="b_mid"><img src="/Benefits/2.svg" /></div>
@@ -37,9 +38,8 @@ export default function Benefits() {
           <div class="b_mid">
             <h1 class="myH2 b_title">Facilidad de manejo</h1>
             <p class="myP b_subtitle">
-              Permite a los usuarios una interacción sencilla, intuitiva, agradable y segura. 
-              Mejorando la experiencia y satisfacción de los usuarios. Logrando una comunicación y feedback más efectivo. 
-              Logrando que el usuario se familiarice antes con la página y que su manejo sea fácil e intuitivo.
+              eCert dispone de una interfaz sencilla, intuitiva y 
+              con la información para la toma de decisiones a un clic de distancia
             </p>     
           </div>        
         </div>
